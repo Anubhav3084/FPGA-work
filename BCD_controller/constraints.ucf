@@ -1,0 +1,40 @@
+
+/////////////////////////////////////////////////////////////////////////////
+//  Here we declare the pin locking for providing inputs and getting outputs
+/////////////////////////////////////////////////////////////////////////////
+
+NET  "ones[0]" LOC = P6;
+NET  "ones[1]" LOC = P5;
+NET  "ones[2]" LOC = P2;
+NET  "ones[3]" LOC = P1;
+
+NET  "tens[0]" LOC = P10;
+NET  "tens[1]" LOC = P9;
+NET  "tens[2]" LOC = P8;
+NET  "tens[3]" LOC = P7;
+
+NET  "hundreds[0]" LOC = P15;
+NET  "hundreds[1]" LOC = P14;
+NET  "hundreds[2]" LOC = P12;
+NET  "hundreds[3]" LOC = P11;
+
+NET  "thousands[0]" LOC = P22;
+NET  "thousands[1]" LOC = P21;
+NET  "thousands[2]" LOC = P17;
+NET  "thousands[3]" LOC = P16;
+
+NET "anode[3]" LOC = P127;
+NET "anode[2]" LOC = P131;
+NET "anode[1]" LOC = P132;
+NET "anode[0]" LOC = P133;
+
+NET  "out[7]" LOC = P143;
+NET  "out[6]" LOC = P142;
+NET  "out[5]" LOC = P141;
+NET  "out[4]" LOC = P140;
+NET  "out[3]" LOC = P139;
+NET  "out[2]" LOC = P138;
+NET  "out[1]" LOC = P137;
+NET  "out[0]" LOC = P134;
+
+NET  "clk" LOC = P84;
