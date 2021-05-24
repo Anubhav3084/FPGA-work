@@ -14,6 +14,7 @@ module top(clk,ones,tens,hundreds,thousands,anode,out);
 	output [7:0]out;
 	
 	wire [1:0]sel;
+	wire [3:0]data;
 	
 	digit_select DS(
 	.clk(clk),
